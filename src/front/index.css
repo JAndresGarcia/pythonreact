@@ -5,8 +5,15 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-color:#ff99bd;
+background-image:
+radial-gradient(at 91% 85%, hsla(251,72%,75%,1) 0px, transparent 50%),
+radial-gradient(at 92% 61%, hsla(309,87%,66%,1) 0px, transparent 50%),
+radial-gradient(at 0% 63%, hsla(283,79%,73%,1) 0px, transparent 50%),
+radial-gradient(at 0% 0%, hsla(193,78%,74%,1) 0px, transparent 50%),
+radial-gradient(at 14% 58%, hsla(182,85%,63%,1) 0px, transparent 50%),
+radial-gradient(at 20% 63%, hsla(183,67%,75%,1) 0px, transparent 50%),
+radial-gradient(at 77% 42%, hsla(14,81%,78%,1) 0px, transparent 50%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -36,7 +43,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -53,7 +60,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
